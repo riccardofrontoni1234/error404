@@ -11,26 +11,24 @@
 	</head>
 
    <!--cs non ha comandi base e quello all'interno del css si chiamano regole essa è fatta da due parti all'inizio di ogni regloa c'è il selettore(quali elementi applicare alòla regola)si apre graffa e si chiude e all'interno abbiamo al dichiarazione(ci sono una o più proprietà) ,<style> sintassi non html ma css-->
-	<style>
-		body {
-	           background-color: black;
-                       
-		}
-                           
-                p{
-                  background-color: white;
-                } 
-		
-		img{
-                    background-color: white;
-                }                       		
+
+	<style>                       		
+	      body{
+			margin: 7% auto 0;
+		        width: 50%;
+		   }
+	      
+              #status-code{
+                        font-weight:bold;
+		   } 	
+	    
+	</style>
 	
-	</style>	
 
 	<body>
 
 		<img src="logo.png">
-		<p><span>404. That's an error.</span></p>
+		<p><span id="status-code">404.</span>  <span>That's an error.</span></p>
 
 		<p>The requested URL /iewjoewgheughew 
 		was not found on this server. That's all we know.</p>
